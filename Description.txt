@@ -1,0 +1,34 @@
+'data' attribute in <button> tags:
+-Data attribute allows to store custom data in HTML elements. 
+-They provide a way to add extra information to HTML elements 
+-that can be used by JavaScript or CSS to add functionality to a webpage. 
+
+Styling of '=' button:
+To occupy two button's space by a single '=' button,
+I applied 2 units for it's growth. This affected positioning of other two buttons,
+for that I have set additional margin for them.
+
+Inside Javascript code:
+
+*The 'Array' object lets you store multiple values in a single variable. 
+It stores a fixed-size sequential collection of elements of the same type. 
+
+*'Array.from()' method returns an array from any iterable object.
+Syntax- Array.from(object, mapFunction, thisValue)
+ where, object(Required): The object to convert to an array.
+mapFunction(Optional): A map function to call on each item.
+thisValue(Optional): A value to use as thisfor the mapFunction
+
+*'forEach()': Calls a function for each element in the array.
+(function that is passed as an argument to forEach method)
+
+*'eval()': evaluates the expression.
+Syntax-  eval(string)
+where, string: A JavaScript expression/ variable/ statement or sequence of statements.
+
+*'substring()': extracts characters between two specified indices (positions),
+and returns the substring  from a main string. 
+syntax:  string.substring(start, end)
+where, string is a variable that stores a main string.
+start(Required)- Start position.(First character is at index 0.)
+end(Optional)-  End position (up to, but not including). If omitted: the rest of the string.
